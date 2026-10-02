@@ -50,7 +50,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: 2026</p>
+<p class="updated">Last updated: October 2, 2026</p>
 
 <p>The Zeus Labs ("we", "us") built Tillora as a point-of-sale app for small and medium businesses. This Privacy Policy explains what data Tillora collects, how it is used, and the choices you have.</p>
 
@@ -59,6 +59,7 @@
 
 <h2>Account Data (Optional — Multi-Device Sync)</h2>
 <p>If you choose to sign in for Multi-Device Sync, we use Firebase Authentication (a Google service) to create your account, identified by an email address. Your product catalog is then synced through Firebase Firestore (a Google cloud database) so it can appear on your other devices. We do not access, read, or sell this data ourselves; it exists solely to sync your own shop's data across devices you sign into.</p>
+<p>If you subscribe to Premium, we also keep a record of your subscription status (whether it is active, when it expires, and the Google Play purchase token) linked to your account, so Premium can be confirmed with Google Play and unlocked on your devices.</p>
 
 <h2>Payments</h2>
 <p>Subscription purchases are processed by Google Play Billing. We do not see or store your payment card details — Google handles this entirely under its own privacy policy.</p>
@@ -66,18 +67,21 @@
 <h2>Advertising</h2>
 <p>Free-tier use of Tillora shows ads served through Google AdMob. AdMob may use device identifiers (such as the advertising ID) to show relevant ads and measure performance, under Google's own advertising and privacy policies. Premium subscribers do not see ads.</p>
 
+<h2>Crash Reports</h2>
+<p>We use Firebase Crashlytics (a Google service) to collect crash reports and diagnostic information (device model, OS version, app state at the time of a crash) so we can fix problems. No account details are attached to these reports.</p>
+
 <h2>Device Permissions</h2>
 <p>
 <strong>Camera</strong> — used only to scan barcodes/QR codes when you choose to; images are not stored or transmitted.<br>
 <strong>Bluetooth</strong> — used only to connect to a thermal receipt printer you select.<br>
-<strong>Storage/Photos</strong> — used only if you choose to attach a shop logo or a ledger receipt photo; these stay on your device (or sync to Firestore only if Multi-Device Sync is enabled).
+<strong>Storage/Photos</strong> — used only if you choose to attach a shop logo or a ledger receipt photo; these stay on your device and are never uploaded.
 </p>
 
 <h2>Data Sharing</h2>
-<p>We do not sell your data. We share data only with the service providers named above (Google, for Firebase, Play Billing, and AdMob), each governed by their own privacy policies, strictly to provide the features described.</p>
+<p>We do not sell your data. We share data only with the service providers named above (Google, for Firebase Authentication, Firestore, Crashlytics, Play Billing, and AdMob), each governed by their own privacy policies, strictly to provide the features described.</p>
 
 <h2>Data Retention and Deletion</h2>
-<p>Locally stored data remains on your device until you delete the app or clear its data. If you used Multi-Device Sync, you can request deletion of your synced account data by contacting us below.</p>
+<p>Locally stored data remains on your device until you delete the app or clear its data. If you have an account, you can delete it from inside the app (Settings &rarr; Delete everything &rarr; Delete this shop), which removes your account, the shop's data on that device, and everything stored for it in our cloud database. You can also request deletion by email &mdash; see our <a href="delete-account.html">account deletion page</a>.</p>
 
 <h2>Children's Privacy</h2>
 <p>Tillora is a business tool not directed at children, and we do not knowingly collect data from children.</p>
