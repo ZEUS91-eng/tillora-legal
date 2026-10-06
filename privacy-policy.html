@@ -50,16 +50,23 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: October 2, 2026</p>
+<p class="updated">Last updated: October 6, 2026</p>
 
 <p>The Zeus Labs ("we", "us") built Tillora as a point-of-sale app for small and medium businesses. This Privacy Policy explains what data Tillora collects, how it is used, and the choices you have.</p>
 
-<h2>Data Stored Only on Your Device</h2>
-<p>Your business profile, products, receipts, ledger accounts, and reports are stored locally on your device using a local database. This data is never sent to us or any third party unless you explicitly enable Multi-Device Sync (a Premium feature).</p>
+<h2>Data Stored on Your Device</h2>
+<p>Your business profile, products, receipts, customer and supplier balances, expenses and reports are stored locally on your device using a local database. On the free plan, and whenever you use Tillora without an account, this data stays on your device and is never sent to us or any third party.</p>
 
-<h2>Account Data (Optional — Multi-Device Sync)</h2>
-<p>If you choose to sign in for Multi-Device Sync, we use Firebase Authentication (a Google service) to create your account, identified by an email address. Your product catalog is then synced through Firebase Firestore (a Google cloud database) so it can appear on your other devices. We do not access, read, or sell this data ourselves; it exists solely to sync your own shop's data across devices you sign into.</p>
+<h2>Account Data</h2>
+<p>If you create an account, we use Firebase Authentication (a Google service) to create it, identified by your email address. We send a link to that address once, to confirm it is yours; until it is confirmed, the cloud features below stay off.</p>
 <p>If you subscribe to Premium, we also keep a record of your subscription status (whether it is active, when it expires, and the Google Play purchase token) linked to your account, so Premium can be confirmed with Google Play and unlocked on your devices.</p>
+
+<h2>Shop Data in the Cloud (Premium)</h2>
+<p>With Premium, your shop's records are kept in Firebase Firestore (a Google cloud database) so that all of your phones, and the managers and cashiers you add, see the same shop. This includes your shop details, product catalog and stock, receipts and returns (including who rang each sale up), customer and supplier accounts with their names and phone numbers and the amounts owed and paid, expenses, stock purchases and write-offs, and day closings. Your shop logo and any receipt photos you attach to a ledger entry are not uploaded; they stay on the device where you added them.</p>
+<p>We do not access, read, or sell this data ourselves; it exists solely so your own shop works across your own devices and team.</p>
+
+<h2>Team Accounts (Premium)</h2>
+<p>When you add a manager or cashier, we store their membership in your shop: the name you or they enter, their role, and when they joined. A manager signs in with their own email account. A cashier joins with a one-time code and is given an anonymous account on that phone, with no email or other personal details. Access is enforced on our servers: a cashier can only record sales and returns and can never read your balances, expenses or reports. When you remove someone, or they leave, their access ends at once and the shop's data on their phone is deleted.</p>
 
 <h2>Payments</h2>
 <p>Subscription purchases are processed by Google Play Billing. We do not see or store your payment card details — Google handles this entirely under its own privacy policy.</p>
